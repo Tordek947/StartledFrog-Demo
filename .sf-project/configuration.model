@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<global-configuration>
+    <database>appdb</database>
+    <dockerMachineIp>192.168.99.102</dockerMachineIp>
+    <jdbcDriverPath>C:/Users/Hryhorii_Popov/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar</jdbcDriverPath>
+    <password>password</password>
+    <rootPassword>root</rootPassword>
+    <user>startled-frog-user</user>
+</global-configuration>

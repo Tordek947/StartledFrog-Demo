@@ -1,0 +1,407 @@
+
+{
+    "__class": "de.fxdiagram.core.XRoot",
+    "rootDiagram": {
+        "__class": "net.atlassian.cmathtutor.fxdiagram.StartledFrogDiagram",
+        "layoutParameters": {
+            "__class": "de.fxdiagram.core.layout.LayoutParameters",
+            "type": "DOT",
+            "connectionKind": "CUBIC_CURVE"
+        },
+        "id": "1342163e-6c6e-43e9-9b3c-efdc44ed8b37",
+        "nodes": [
+            {
+                "__class": "net.atlassian.cmathtutor.fxdiagram.PersistenceUnitNode",
+                "layoutX": 433.0,
+                "layoutY": 690.9000854492188,
+                "width": 0.0,
+                "height": 0.0,
+                "id": "427f6785-270a-4db7-8ecd-40ed75711b91",
+                "labels": [
+                ]
+            },
+            {
+                "__class": "net.atlassian.cmathtutor.fxdiagram.PersistenceUnitNode",
+                "layoutX": 378.0,
+                "layoutY": 19.399978637695312,
+                "width": 0.0,
+                "height": 0.0,
+                "id": "07e75a3c-7c73-4de5-95d5-533ebbba9e1e",
+                "labels": [
+                ]
+            },
+            {
+                "__class": "net.atlassian.cmathtutor.fxdiagram.PersistenceUnitNode",
+                "layoutX": 53.89250659942627,
+                "layoutY": 319.6997528076172,
+                "width": 0.0,
+                "height": 0.0,
+                "id": "a64617a7-fa67-436c-b96f-1edfec7be844",
+                "labels": [
+                ]
+            },
+            {
+                "__class": "net.atlassian.cmathtutor.fxdiagram.PersistenceUnitNode",
+                "layoutX": 792.7998657226562,
+                "layoutY": 301.2999725341797,
+                "width": 0.0,
+                "height": 0.0,
+                "id": "3a3d7a11-eab3-49e8-b0d2-fa0c55aee4d8",
+                "labels": [
+                ]
+            },
+            {
+                "__class": "net.atlassian.cmathtutor.fxdiagram.PersistenceUnitNode",
+                "layoutX": 42.099977016448975,
+                "layoutY": 672.8999633789062,
+                "width": 0.0,
+                "height": 0.0,
+                "id": "12116c02-2cf7-4ce0-88e9-6468f0fe22a3",
+                "labels": [
+                ]
+            }
+        ],
+        "connections": [
+            {
+                "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnection",
+                "domainObjectDescriptor": {
+                    "__class": "de.fxdiagram.core.model.StringDescriptor",
+                    "name": "Medical card entry->Doctor"
+                },
+                "source": "/rootDiagram/nodes.3",
+                "target": "/rootDiagram/nodes.1",
+                "kind": "POLYLINE",
+                "sourceArrowHead": {
+                    "__class": "net.atlassian.cmathtutor.fxdiagram.ReferentialAttributeArrowHead",
+                    "connection": "/rootDiagram/connections.0",
+                    "isSource": true,
+                    "width": 0.0,
+                    "height": 5.0
+                },
+                "targetArrowHead": {
+                    "__class": "net.atlassian.cmathtutor.fxdiagram.ReferentialAttributeArrowHead",
+                    "connection": "/rootDiagram/connections.0",
+                    "isSource": false,
+                    "width": 0.0,
+                    "height": 5.0
+                },
+                "stroke": {
+                    "__class": "javafx.scene.paint.Color",
+                    "red": 0.20000000298023224,
+                    "green": 0.20000000298023224,
+                    "blue": 0.20000000298023224,
+                    "opacity": 1.0
+                },
+                "id": "4bdcf24c-c9f3-4d0f-a769-09f2b2276cf7",
+                "controlPoints": [
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 953.9999071346651,
+                        "layoutY": 297.79998779296926,
+                        "type": "ANCHOR",
+                        "manuallyPlaced": false
+                    },
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 954.0,
+                        "layoutY": 127.99993896484375,
+                        "type": "INTERPOLATED",
+                        "manuallyPlaced": true
+                    },
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 781.9000202111778,
+                        "layoutY": 127.81774285142366,
+                        "type": "ANCHOR",
+                        "manuallyPlaced": false
+                    }
+                ],
+                "labels": [
+                    {
+                        "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnectionLabel",
+                        "text": {
+                            "__class": "javafx.scene.text.Text"
+                        },
+                        "connection": "/rootDiagram/connections.0",
+                        "position": 0.7848399246752715,
+                        "isContainer": true
+                    },
+                    {
+                        "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnectionLabel",
+                        "text": {
+                            "__class": "javafx.scene.text.Text"
+                        },
+                        "connection": "/rootDiagram/connections.0",
+                        "position": 0.18683565004453132,
+                        "isContainer": false
+                    }
+                ]
+            },
+            {
+                "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnection",
+                "domainObjectDescriptor": {
+                    "__class": "de.fxdiagram.core.model.StringDescriptor",
+                    "name": "Doctor->Medical card"
+                },
+                "source": "/rootDiagram/nodes.1",
+                "target": "/rootDiagram/nodes.2",
+                "kind": "POLYLINE",
+                "sourceArrowHead": {
+                    "__class": "net.atlassian.cmathtutor.fxdiagram.ReferentialAttributeArrowHead",
+                    "connection": "/rootDiagram/connections.1",
+                    "isSource": true,
+                    "width": 0.0,
+                    "height": 5.0
+                },
+                "targetArrowHead": {
+                    "__class": "net.atlassian.cmathtutor.fxdiagram.ReferentialAttributeArrowHead",
+                    "connection": "/rootDiagram/connections.1",
+                    "isSource": false,
+                    "width": 0.0,
+                    "height": 5.0
+                },
+                "stroke": "/rootDiagram/connections.0/stroke",
+                "id": "7a1cb5a4-ec40-41fe-b7d3-ee9477a3ec49",
+                "controlPoints": [
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 330.5000283399782,
+                        "layoutY": 127.86836987541125,
+                        "type": "ANCHOR",
+                        "manuallyPlaced": false
+                    },
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 210.0,
+                        "layoutY": 128.0,
+                        "type": "INTERPOLATED",
+                        "manuallyPlaced": true
+                    },
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 209.0519330414104,
+                        "layoutY": 316.1998124752466,
+                        "type": "ANCHOR",
+                        "manuallyPlaced": false
+                    }
+                ],
+                "labels": [
+                    {
+                        "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnectionLabel",
+                        "text": {
+                            "__class": "javafx.scene.text.Text"
+                        },
+                        "connection": "/rootDiagram/connections.1",
+                        "position": 0.7550160771984435,
+                        "isContainer": true
+                    },
+                    {
+                        "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnectionLabel",
+                        "text": {
+                            "__class": "javafx.scene.text.Text"
+                        },
+                        "connection": "/rootDiagram/connections.1",
+                        "position": 0.19993480503363997,
+                        "isContainer": false
+                    }
+                ]
+            },
+            {
+                "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnection",
+                "domainObjectDescriptor": {
+                    "__class": "de.fxdiagram.core.model.StringDescriptor",
+                    "name": "Medical card entry->Health index"
+                },
+                "source": "/rootDiagram/nodes.3",
+                "target": "/rootDiagram/nodes.0",
+                "kind": "POLYLINE",
+                "sourceArrowHead": {
+                    "__class": "net.atlassian.cmathtutor.fxdiagram.ReferentialAttributeArrowHead",
+                    "connection": "/rootDiagram/connections.2",
+                    "isSource": true,
+                    "width": 0.0,
+                    "height": 5.0
+                },
+                "targetArrowHead": {
+                    "__class": "net.atlassian.cmathtutor.fxdiagram.ReferentialAttributeArrowHead",
+                    "connection": "/rootDiagram/connections.2",
+                    "isSource": false,
+                    "width": 0.0,
+                    "height": 5.0
+                },
+                "stroke": "/rootDiagram/connections.0/stroke",
+                "id": "3df006a6-08ce-4361-954a-c65b0ce72426",
+                "controlPoints": [
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 953.9999118900432,
+                        "layoutY": 558.6999511718708,
+                        "type": "ANCHOR",
+                        "manuallyPlaced": false
+                    },
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 954.0,
+                        "layoutY": 766.0,
+                        "type": "INTERPOLATED",
+                        "manuallyPlaced": true
+                    },
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 862.9000214596272,
+                        "layoutY": 765.8816313303134,
+                        "type": "ANCHOR",
+                        "manuallyPlaced": false
+                    }
+                ],
+                "labels": [
+                    {
+                        "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnectionLabel",
+                        "text": {
+                            "__class": "javafx.scene.text.Text"
+                        },
+                        "connection": "/rootDiagram/connections.2",
+                        "position": 0.6944915744576695,
+                        "isContainer": true
+                    },
+                    {
+                        "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnectionLabel",
+                        "text": {
+                            "__class": "javafx.scene.text.Text"
+                        },
+                        "connection": "/rootDiagram/connections.2",
+                        "position": 0.18314937429619566,
+                        "isContainer": false
+                    }
+                ]
+            },
+            {
+                "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnection",
+                "domainObjectDescriptor": {
+                    "__class": "de.fxdiagram.core.model.StringDescriptor",
+                    "name": "Patient->Medical card"
+                },
+                "source": "/rootDiagram/nodes.4",
+                "target": "/rootDiagram/nodes.2",
+                "kind": "POLYLINE",
+                "sourceArrowHead": {
+                    "__class": "net.atlassian.cmathtutor.fxdiagram.ReferentialAttributeArrowHead",
+                    "connection": "/rootDiagram/connections.3",
+                    "isSource": true,
+                    "width": 0.0,
+                    "height": 5.0
+                },
+                "targetArrowHead": {
+                    "__class": "net.atlassian.cmathtutor.fxdiagram.ReferentialAttributeArrowHead",
+                    "connection": "/rootDiagram/connections.3",
+                    "isSource": false,
+                    "width": 0.0,
+                    "height": 5.0
+                },
+                "stroke": "/rootDiagram/connections.0/stroke",
+                "id": "32e4ec1b-06f3-4869-a25c-67ab7aab61cf",
+                "controlPoints": [
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 209.46726027468128,
+                        "layoutY": 666.89999746846,
+                        "type": "ANCHOR",
+                        "manuallyPlaced": false
+                    },
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 208.8999360691049,
+                        "layoutY": 498.59971156005696,
+                        "type": "ANCHOR",
+                        "manuallyPlaced": false
+                    }
+                ],
+                "labels": [
+                    {
+                        "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnectionLabel",
+                        "text": {
+                            "__class": "javafx.scene.text.Text"
+                        },
+                        "connection": "/rootDiagram/connections.3",
+                        "position": 0.6606831087725936,
+                        "isContainer": true
+                    },
+                    {
+                        "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnectionLabel",
+                        "text": {
+                            "__class": "javafx.scene.text.Text"
+                        },
+                        "connection": "/rootDiagram/connections.3",
+                        "position": 0.1539009840217795,
+                        "isContainer": false
+                    }
+                ]
+            },
+            {
+                "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnection",
+                "domainObjectDescriptor": {
+                    "__class": "de.fxdiagram.core.model.StringDescriptor",
+                    "name": "Medical card->Medical card entry"
+                },
+                "source": "/rootDiagram/nodes.2",
+                "target": "/rootDiagram/nodes.3",
+                "kind": "POLYLINE",
+                "sourceArrowHead": {
+                    "__class": "net.atlassian.cmathtutor.fxdiagram.ReferentialAttributeArrowHead",
+                    "connection": "/rootDiagram/connections.4",
+                    "isSource": true,
+                    "width": 0.0,
+                    "height": 5.0
+                },
+                "targetArrowHead": {
+                    "__class": "net.atlassian.cmathtutor.fxdiagram.ReferentialAttributeArrowHead",
+                    "connection": "/rootDiagram/connections.4",
+                    "isSource": false,
+                    "width": 0.0,
+                    "height": 5.0
+                },
+                "stroke": "/rootDiagram/connections.0/stroke",
+                "id": "965419b9-7c3e-4178-87ff-9e61f209126e",
+                "controlPoints": [
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 410.792504154784,
+                        "layoutY": 407.2913049337115,
+                        "type": "ANCHOR",
+                        "manuallyPlaced": false
+                    },
+                    {
+                        "__class": "de.fxdiagram.core.XControlPoint",
+                        "layoutX": 789.2998662260333,
+                        "layoutY": 407.0883021285039,
+                        "type": "ANCHOR",
+                        "manuallyPlaced": false
+                    }
+                ],
+                "labels": [
+                    {
+                        "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnectionLabel",
+                        "text": {
+                            "__class": "javafx.scene.text.Text"
+                        },
+                        "connection": "/rootDiagram/connections.4",
+                        "position": 0.8,
+                        "isContainer": true
+                    },
+                    {
+                        "__class": "net.atlassian.cmathtutor.fxdiagram.AssociationConnectionLabel",
+                        "text": {
+                            "__class": "javafx.scene.text.Text"
+                        },
+                        "connection": "/rootDiagram/connections.4",
+                        "position": 0.18166779402003383,
+                        "isContainer": false
+                    }
+                ]
+            }
+        ]
+    },
+    "diagram": "/rootDiagram",
+    "domainObjectProviders": [
+    ]
+}

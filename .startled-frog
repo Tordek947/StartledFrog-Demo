@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<startled-frog-project version="V_0_0_1_a">
+    <root-package>ua.kpi.iasa.popov</root-package>
+    <application-name>HealthIndicesService</application-name>
+    <project-builder>MAVEN</project-builder>
+    <sf-project-folder>.sf-project</sf-project-folder>
+</startled-frog-project>
